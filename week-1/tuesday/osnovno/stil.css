@@ -1,0 +1,13 @@
+a {
+    color: green;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.para {
+    font-style: italic;
+}
+
+#moj-paragraf {
+    border: solid 3px green;
+}

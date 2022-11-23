@@ -1,0 +1,37 @@
+body {
+    background-color: aquamarine;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+.main-heading {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    color: rgb(136, 135, 135);
+}
+
+.first-paragraph, .third-paragraph {
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20px;
+}
+
+.second-paragraph, .fourth-paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(17, 17, 68);
+    font-size: 20px;
+}
+
+.genshin-img {
+    border: double 10px gold;
+    margin-right: 30%;
+    margin-left: 30%;
+    width: 300px;
+}
+

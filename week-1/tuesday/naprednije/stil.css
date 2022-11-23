@@ -1,0 +1,59 @@
+.desno-poravnanje {
+    text-align: right;
+}
+
+.crveni-paragraf {
+    color: red;
+}
+
+/* Kada vise elemenata imaju isto svojistvo*/
+h3, h4 {
+    color: orange;
+}
+
+.drugi, #treci {
+    background-color: yellow;
+}
+
+/*Prioritet selektor < klasa < ID*/
+
+li {
+    color: limegreen;
+}
+
+.kurs {
+    color: purple;
+}
+
+#ucim {
+    color: orange;
+}
+
+/*Selektovanje paragrafa unutar diva*/
+
+div p {
+    font-weight: bold;
+}
+
+div .prvi-u-divu {
+    text-decoration: underline;
+}
+
+/*Treci li u narandyasto*/
+ol li:nth-child(3) {
+    color: orange;
+}
+
+/*svaki treci iskosi*/
+ol li:nth-child(3n) {
+    font-style: italic;
+}
+
+/*odd - svi neparni; even - svi parni*/
+ol li:nth-child(odd) {
+    background-color: yellow;
+}
+
+a:hover {
+    background-color: yellow;
+}
