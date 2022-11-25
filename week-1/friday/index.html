@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forme</title>
+</head>
+<body>
+    <form action="test.php" method="post">
+        <fieldset>
+            <legend>Osnovni Podatci</legend>
+            
+            <p>
+                <label for="ime">Ime i Prezime:</label>
+                <input id="ime" name="ime" type="text" maxlength="8" value="" placeholder="unesi ime"> 
+            </p>
+            
+            <p>
+                <label for="username">Korisnicko ime:</label>
+                <input id="username" name="username" type="text" maxlength="12" value="" placeholder="unesi korisnicko ime">
+            </p>
+            
+            <p>
+                <label for="password">Lozinka</label>
+                <input type="password" name="password" id="password">
+            </p>
+            
+            <input type="hidden" id="skriven" value="100">
+            
+            <p>
+                <label for="godine">Godine:</label>
+                <input type="number" name="godine" id="godine" min="18" step="1">
+            </p>
+            
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email">
+            </p>
+            
+            <p>
+                <label for="pol">Odaberite pol</label>
+                <input type="radio" name="pol" id="Ž" value="Ž"> Ženski
+                <input type="radio" name="pol" id="M" value="M"> Muški
+                <input type="radio" name="pol" id="N" value="N" checked> Neodredjeno
+            </p>
+            
+            <p>
+                <label for="jezik">Odaberite programski jezik</label>
+                <input type="checkbox" name="jezik" id="html" value="html" checked> HTML
+                <input type="checkbox" name="jezik" id="css" value="css"> CSS
+                <input type="checkbox" name="jezik" id="javascript" value="javascript"> JavaScript
+                <input type="checkbox" name="jezik" id="phyton" value="phyton"> Phyton
+            </p>
+            
+            <p>
+                <label for="grad">Izaberi grad</label>
+                <select name="grad" id="grad">
+                    <optgroup label="Jug"> 
+                        <option value=""></option>
+                        <option value="Niš">Niš</option>
+                        <option value="Kragujevac">Kragujevac</option>
+                        <option value="Kraljevo">Kraljevo</option>
+                    </optgroup>
+                    <optgroup label="Sever">
+                        <option value="Beograd">Beograd</option>
+                        <option value="Novi Sad">Novi Sad</option>
+                    </optgroup>
+                </select>
+            </p>
+            
+            <p>
+                <label for="iskustva">Koja su vaša iskustva ya ovaj sajt</label>
+                <textarea name="iskustva" id="iskustva" cols="30" rows="10">Nemam iskustva hvala :*</textarea>
+            </p>
+                <input type="submit" value="Pošalji">
+            
+        </fieldset>
+    </form>
+</body>
+</html>

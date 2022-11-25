@@ -1,0 +1,18 @@
+fieldset {
+    border: 5px ridge gray;
+}
+
+label {
+    display: inline-block;
+    min-width: 133px;
+}
+
+.form-heading {
+    font-size: 30px;
+}
+
+.text-field {
+    /* margin-left: 30%; */
+    margin-right: 50%;
+    
+}
